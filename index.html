@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1 style="color: aqua;">Hellow World 6</h1>
@@ -34,6 +39,7 @@
         <li>PHYTON</li>
         <li>KOTLIN</li>
     </ul>
+    <!-- type="disc/circle/square/none" -->
     <hr>
     <h1>Bahasa Pemrograman untuk pemula</h1>
     <ol type="A">
@@ -43,8 +49,9 @@
         <li>PHYTON</li>
         <li>KOTLIN</li>
     </ol>
+    <!-- type="1/a/i/l" -->
     <hr>
-    <table border="1">
+    <table>
         <tr>
             <th>Company</th>
             <th>Contact</th>
@@ -61,8 +68,32 @@
             <td>Mexico</td>
         </tr>
     </table>
-    <!-- type="disc/circle/square/none" -->
-    <!-- type="1/a/i/l" -->
+    <hr>
+    <!-- column span -->
+    <table>
+        <tr>
+            <th>Asal</th>
+            <th>Domisili</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>Jakarta</center>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <!-- Row Span -->
+    <table>
+        <tr>
+            <th rowspan="2">Jakarta</th>
+            <td>- A -</td>
+            <td>- B -</td>
+        </tr>
+        <tr>
+            <td>- C -</td>
+            <td>- D -</td>
+        </tr>
+    </table>
     <!-- ini komentar -->
 </body>
 </html>
