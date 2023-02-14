@@ -7,6 +7,7 @@
     <title>Form Siswa</title>
 </head>
 <body>
+    <!-- Form -->
     <form action="" method="post">
         <label for="name">Nama:</label>
         <input type="text" name="" id="name">
@@ -23,5 +24,62 @@
         <br>
         <input type="submit" value="OK">
     </form>
+    <hr>
+    <!-- Button -->
+    <button type="button">OK</button>
+    <button type="button" onclick="doSometing();">Apply</button>
+    <hr>
+    <!-- Select Form -->
+    <p>Apa Warna Faforitmu</p>
+    <select name="select" id="">
+        <option value="">Merah</option>
+        <option value="">Kuning</option>
+        <option value="">Hijau</option>
+        <option value="">Biru</option>
+    </select>
+
+    <p>Apa Makanan Fovoritmu</p>
+    <select name="select" id="">
+        <option value="">Papeda</option>
+        <option value="">Soto Kwali</option>
+        <option value="">Sate Padang</option>
+        <option value="" selected>Gudeg</option>
+    </select>
+    <hr>
+    <!-- Option Group -->
+    <p>Minuman Favoritmu</p>
+    <select name="select" id="">
+        <optgroup label="Jus Buah">
+            <option value="">Jus Apel</option>
+            <option value="">Jus Jeruk</option>
+            <option value="">Jus Mangga</option>
+        </optgroup>
+        <optgroup label="Jamu">
+            <option value="">Kencur</option>
+            <option value="">Asem</option>
+            <option value="">Brotowali</option>
+        </optgroup>
+    </select>
+    <hr>
+    <!-- Radio Button -->
+    <input type="radio" name="fav_language" id="html" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" name="fav_language" id="css" value="CSS">
+    <label for="html">CSS</label><br>
+    <input type="radio" name="fav_language" id="javascript" value="JavaScript">
+    <label for="html">JavaScript</label>
+    <hr>
+    <!-- Field Sets & Legends -->
+    <fieldset>
+        <legend>Data Diri</legend>
+        <p>
+            <label for="name">Nama</label>
+            <input type="text" name="name" id="">
+        </p>
+        <p>
+            <label for="year">Usia </label>
+            <input type="number" name="year" id="" min="5" max="60">
+        </p>
+    </fieldset>
 </body>
 </html>
